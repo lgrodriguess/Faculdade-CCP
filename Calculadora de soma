@@ -1,0 +1,17 @@
+#include<iostream>
+  using namespace std;
+
+int main(){
+    int num1, num2, sum;
+  cout <<"Coloque o primeiro numero"<<endl;
+  cin>> num1;
+
+  cout <<"Coloque o segundo numero"<<endl;
+  cin>> num2;
+
+  sum = num1 + num2;
+  cout<<"A soma eh "<<sum;
+
+    return 0;  
+ 
+}
