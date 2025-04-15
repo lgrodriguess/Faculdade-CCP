@@ -1,0 +1,24 @@
+#include<iostream>
+#include<math.h> //usei essa biblioteca pra ultilizar a função "pow" que substitui fazer a "elevação" manualmente
+using namespace std;
+
+//essa função vai elevar ao cubo
+int cubo(int x){
+	
+	int valorCubo = 0;
+	valorCubo = pow(x,3); //esse "pow" funciona pra elevar algum numero (x) por alguma potencia
+	return valorCubo;
+}
+
+//essa função vai nos dar a resposta
+int main(){
+	
+	int y;
+	cout<<"Insira o valor!!"<<endl;
+	cin >> y;
+
+	cout<<"O valor do seu numero ao cubo eh "<<cubo(y);
+	return 0;
+	
+}
+	
