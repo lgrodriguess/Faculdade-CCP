@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+
+int main (){
+	int num1, num2, subt;
+	
+	cout<<"Coloque o primeiro numero"<<endl;
+	cin >> num1;
+	
+	cout<<"Coloque o segundo numero"<<endl;
+	cin >> num2;
+	
+	subt = num1 - num2;
+	cout<<"A subtracao eh: "<<subt<<endl;
+	
+	
+	
+	
+	return 0;
+}
