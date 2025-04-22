@@ -1,0 +1,29 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+
+//Aula 2.1- Exercicio 1 :Faça um programa que o usuário irá informar um numero real qualquer e seu programa deve informar se este número é positivo ou negativo
+//Aluno: Luan Rodrigues
+
+	int analise(float x){
+		if ( x >= 0){
+		cout<<"O numero eh positivo"<<endl;
+		}else{
+		cout<<"O numero eh negativo"<<endl;	
+	}
+		return x;
+		}	
+
+		
+	int main()
+	{
+		cout<< "---------------------------------"<<endl;
+		cout<< " O numero eh positivo ou negativo? "<<endl;
+		cout<< "---------------------------------"<<endl;
+		float x1=0.0;
+		cout<<"Informe o numero"<<endl;
+		cin>>x1;
+		cout<<"Seu numero eh : "<<analise(x1);
+		
+		return 0;	
+	}
