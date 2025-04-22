@@ -2,7 +2,7 @@
 #include<math.h>
 using namespace std;
 
-//Aula 2.1- Exercicio 2 : Faça um programa que o usuário irá informar um numero de 1 a 7 e o seu programa informará qual dia da semana este número se refere.
+//Aula 2.1- Exercicio 3 : Faça um programa que o usuário irá informar um numero de 1 a 7 e o seu programa informará qual dia da semana este número se refere.
 //Aluno: Luan Rodrigues
 		
 		
