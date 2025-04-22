@@ -1,0 +1,53 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+
+//Aula 2.1- Exercicio 4 : Faça um programa que o usuário irá informar um numero de 1 a 12 e o seu programa informará qual mes do ano este número se refere.
+//Aluno: Luan Rodrigues
+		
+		
+		void MesDoAno(float x){								//Criação de função para mes do ano
+		
+			if (x == 1){										// == é o simbolo pra ultilizar quando quer relacionar uma variável igual a um numero especifico
+			cout<<"Janeiro"<<endl;
+		}else if (x == 2){
+			cout<<"Fevereiro"<<endl;
+		}else if (x == 3){
+			cout<<"Março"<<endl;
+		}else if (x == 4){
+			cout<<"Abril"<<endl;
+		}else if (x == 5){
+			cout<<"Maio"<<endl;
+		}else if (x == 6){
+			cout<<"Junho"<<endl;
+		}else if (x == 7){
+			cout<<"Julho"<<endl;
+	  }else if (x == 8){
+	    	cout<<"Agosto"<<endl;
+		}else if (x == 9){
+			cout<<"Setembro"<<endl;
+		}else if (x == 10){
+			cout<<"Outubro"<<endl;		
+		}else if (x == 11){
+			cout<<"Novembro"<<endl;
+		}else if (x == 12){
+			cout<<"Dezembro"<<endl;
+		}else{
+			cout<<"Tente outro numero! Mes invalido!"<<endl;
+		}
+	
+		
+	}
+			int main(){
+				float Mes;
+				cout<<"---------------------------"<<endl;
+				cout<<"       Mes Do Ano       "<<endl;
+				cout<<"---------------------------"<<endl;
+				cout<<"Digite um numero de 1 a 12"<<endl;
+				cin>> Mes;
+				
+			MesDoAno(Mes);									//Coloquei a função criada anteriormente pra funcionar e dentro dela coloquei a variavel "mes" que seria o numero inserido pelo ultilizador
+			return 0;
+			
+			}
+	 
