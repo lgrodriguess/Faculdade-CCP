@@ -1,0 +1,27 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+
+//Aula 2.1- Exercicio 2 :Faça um programa que peça ao usuário dois números e informe a subtração entre eles. Porém sua função deve sempre retornar um valor positivo. Isso implica que voce terá que fazer uma verificação antes de efetuar de fato a subtração
+//Aluno: Luan Rodrigues
+
+	int main(){
+		
+		float a = 0, b = 0;
+		float subtracao = 0;															//Criação da variavel que sera a função
+		cout <<"Informe os valores desejados abaixo"<<endl;
+		cout <<"Informe seu primeiro numero"<<endl;
+		cin >> a;
+		cout <<"Informe seu segundo numero"<<endl;
+		cin >> b;
+		
+			if (a >= b){																//Se o primeiro numero informado for maior ou igual ao segundo, ele irá prosseguir com a conta!
+				subtracao= a - b; 														//Criação da funcao q exercerá a conta de subtração
+				cout<<"A subitracao de "<<a<<" menos "<<b<<" é "<<subtracao<<endl;
+			}else{																		//Se o primeiro numero informado for menor que o segundo, a conta nao vai ser realizada!
+				cout<<"Seu resultado nao vai dar positivo!! "<<endl;
+				
+			}
+				
+		return 0;	
+	}
