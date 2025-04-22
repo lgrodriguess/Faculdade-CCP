@@ -1,0 +1,35 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+
+	int maior(float num1, float num2){	//Essa função serve pra criar a "comparação" entre os numeros que posteriormente vai ser pedido pra ser informado!
+		float m;
+		if(num1 >= num2){
+			m=num1;
+		}else{
+			m=num2;
+		}
+		return m;
+}
+
+
+	int main(){
+		cout<< "----------------------"<<endl;
+		cout<< " Qual numero é maior? "<<endl;
+		cout<< "----------------------"<<endl;
+		 float x1 = 0.0;
+		 float x2 = 0.0;
+		cout<<"Informe o primeiro numero de escolha"<<endl;
+		cin >> x1;
+		cout<<"Informe o segundo numero de escolha"<<endl;
+		cin >> x2;
+		cout<< "O numero maior é : "<<maior(x1,x2)<<"!"; //O numero entre parenteses é pra ser atribuido valor a funcao!!
+		
+	
+			
+
+		
+		
+		
+		return 0;
+	}
