@@ -1,0 +1,43 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+
+//Aula 2.1- Exercicio 2 : Faça um programa que o usuário irá informar um numero de 1 a 7 e o seu programa informará qual dia da semana este número se refere.
+//Aluno: Luan Rodrigues
+		
+		
+		void DiaDaSemana(float x){								//Criação de função para dia da semana
+		
+			if (x == 1){										// == é o simbolo pra ultilizar quando quer relacionar uma variável igual a um numero especifico
+			cout<<"Hoje é Domingo"<<endl;
+		}else if (x == 2){
+			cout<<"Hoje é Segunda-Feira"<<endl;
+		}else if (x == 3){
+			cout<<"Hoje é Terça-Feira"<<endl;
+		}else if (x == 4){
+			cout<<"Hoje é Quarta-Feira"<<endl;
+		}else if (x == 5){
+			cout<<"Hoje é Quinta-Feira"<<endl;
+		}else if (x == 6){
+			cout<<"Hoje é Sexta-Feira"<<endl;
+		}else if (x == 7){
+			cout<<"Hoje é Sabado"<<endl;
+		}else{
+			cout<<"Tente outro numero! Dia invalido!"<<endl;
+		}
+	
+		
+	}
+			int main(){
+				float Dia;
+				cout<<"---------------------------"<<endl;
+				cout<<"       Dia Da Semana       "<<endl;
+				cout<<"---------------------------"<<endl;
+				cout<<"Digite um numero de 1 a 7"<<endl;
+				cin>> Dia;
+				
+			DiaDaSemana(Dia);									//Coloquei a função criada anteriormente pra funcionar e dentro dela coloquei a variavel "dia" que seria o numero inserido pelo ultilizador
+			return 0;
+			
+			}
+	 
