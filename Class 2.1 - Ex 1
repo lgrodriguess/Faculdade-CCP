@@ -4,6 +4,8 @@ using namespace std;
 
 //Aula 2.1- Exercicio 1 :Faça um programa que o usuário irá informar um numero real qualquer e seu programa deve informar se este número é positivo ou negativo
 //Aluno: Luan Rodrigues
+//Instituiçã: If Sudeste MG - Rp
+//Período: Primeiro Período
 
 	int analise(float x){
 		if ( x >= 0){
