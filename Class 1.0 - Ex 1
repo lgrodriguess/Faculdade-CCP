@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
-
+//Aluno: Luan Rodrigues
+//Instituiçã: If Sudeste MG - Rp
+//Período: Primeiro Período
 
 int main() {
 	string nome;
