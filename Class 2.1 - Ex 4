@@ -4,6 +4,8 @@ using namespace std;
 
 //Aula 2.1- Exercicio 4 : Faça um programa que o usuário irá informar um numero de 1 a 12 e o seu programa informará qual mes do ano este número se refere.
 //Aluno: Luan Rodrigues
+//Instituiçã: If Sudeste MG - Rp
+//Período: Primeiro Período
 		
 		
 		void MesDoAno(float x){								//Criação de função para mes do ano
