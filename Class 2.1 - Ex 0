@@ -23,9 +23,9 @@ using namespace std;
 		cout<< "----------------------"<<endl;
 		 float x1 = 0.0;
 		 float x2 = 0.0;
-		cout<<"Informe o primeiro numero de escolha"<<endl;
+		cout<<"Informe o Primeiro numero de escolha"<<endl;
 		cin >> x1;
-		cout<<"Informe o segundo numero de escolha"<<endl;
+		cout<<"Informe o Segundo numero de escolha"<<endl;
 		cin >> x2;
 		cout<< "O numero maior é : "<<maior(x1,x2)<<"!"; //O numero entre parenteses é pra ser atribuido valor a funcao!!
 		
