@@ -2,6 +2,10 @@
 #include<math.h> //usei essa biblioteca pra ultilizar a função "pow" que substitui fazer a "elevação" manualmente
 using namespace std;
 
+//Aluno: Luan Rodrigues
+//Instituiçã: If Sudeste MG - Rp
+//Período: Primeiro Período
+
 //essa função vai elevar ao cubo
 int cubo(int x){
 	
