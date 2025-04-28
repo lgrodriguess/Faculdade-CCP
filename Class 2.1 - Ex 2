@@ -4,6 +4,8 @@ using namespace std;
 
 //Aula 2.1- Exercicio 2 :Faça um programa que peça ao usuário dois números e informe a subtração entre eles. Porém sua função deve sempre retornar um valor positivo. Isso implica que voce terá que fazer uma verificação antes de efetuar de fato a subtração
 //Aluno: Luan Rodrigues
+//Instituiçã: If Sudeste MG - Rp
+//Período: Primeiro Período
 
 	int main(){
 		
