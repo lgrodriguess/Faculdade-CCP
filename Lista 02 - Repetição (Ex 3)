@@ -1,0 +1,36 @@
+#include<iostream>
+using namespace std;
+
+//Faça um programa que leia N números e informe a soma e a média dos números.
+//Aluno: Luan Rodrigues
+//Instituiçã: If Sudeste MG - Rp
+//Período: Primeiro Período
+
+
+void somaemedia(int a){
+	float b = 0.0;
+	float media = 0.0;
+	float soma = 0.0;
+	
+		for (int i = 1 ; i<=a ; i ++){
+			cout<<"Insira o "<< i <<" número!"<<endl;
+			cin>>b;
+			soma = b + soma;
+		}
+		media = soma/a;
+		cout<<"---------------------------"<<endl;
+		cout<<"A soma dos numeros é "<<soma<<endl;
+		cout<<"A média dos numeros é "<<media<<endl;
+		cout<<"---------------------------"<<endl;
+}
+
+int main(){
+	int n = 0;
+	cout<<"-----------------------------------------------"<<endl;
+	cout<<"Insira a quantidade de números que deseja usar!"<<endl;
+	cout<<"-----------------------------------------------"<<endl;
+	cin>>n;
+	somaemedia(n);
+	 		return 0;
+}
+
