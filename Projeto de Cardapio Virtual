@@ -1,0 +1,126 @@
+#include<iostream>
+using namespace std;
+
+void pagamento(){
+	float Pix;
+	float Cartao;
+	float Dinheiro;
+	
+	cout<<"---------------------"<<endl;
+	cout<<"Formas de Pagamento :"<<endl;
+	cout<<"1 - Pix"<<endl;
+	cout<<"2 - Cartao"<<endl;
+	cout<<"3 - Dinheiro"<<endl;
+	cout<<"---------------------"<<endl;
+	
+	switch (){
+		case 1:
+			cout<<"Segue a Chave abaixo!"<<endl;
+			cout<<"CNPJ - 49.056.696/0001-67"<<endl;
+			break;
+		case 2:
+			cout<<"Por gentileza, pague na retirada do pedido!"<<endl;
+			break;
+		case 3:
+			cout<<""
+	}
+}
+int whatsapp(){
+	cout<<"-----------------------------------"<<endl;
+	cout<<"Telefone de Contato (32) 98345-1673"<<endl;
+	cout<<"-----------------------------------"<<endl;	
+		return 0;
+}
+
+void cardapio(){
+	cout<<"-------------------------------------------"<<endl;
+	cout<<"Cachorro Quente - Codigo 100 - Preço R$2,20"<<endl;
+	cout<<"Bauru Simples - Codigo 101 - Preço R$3,30"<<endl;
+	cout<<"Bauru Com Ovo - Codigo 102 - Preço R$3,50"<<endl;
+	cout<<"Hamburguer - Codigo 103 - Preço R$5,20"<<endl;
+	cout<<"CheeseBurguer - Codigo 104 - Preço R$7,30"<<endl;
+	cout<<"Coca-Cola - Codigo 105 - Preço R$3,50"<<endl;
+	cout<<"Guaraná - Codigo 106 - Preço R$4,00"<<endl;
+	cout<<"-------------------------------------------"<<endl;
+	
+	cout<<"Informe o codigo do produto que deseja comprar!"<<endl;
+	int a = 0;
+	cin>>a;
+	
+	switch (a){
+		case 100:
+			cout<<"O valor da sua compra é de R$2,20"<<endl;
+			cout<<"Por gentileza informe a foma de pagamento!!"<<endl;
+			pagamento();
+			break;
+		case 101:
+			cout<<"O valor da sua compra é de R$3,30"<<endl;
+			cout<<"Por gentileza informe a foma de pagamento!!"<<endl;
+			pagamento();
+			break;
+		case 102:
+			cout<<"O valor da sua compra é de R$3,50"<<endl;
+			cout<<"Por gentileza informe a foma de pagamento!!"<<endl;
+			pagamento();
+			break;
+		case 103:
+			cout<<"O valor da sua compra é de R$5,20"<<endl;
+			cout<<"Por gentileza informe a foma de pagamento!!"<<endl;
+			pagamento();
+			break;
+		case 104:
+			cout<<"O valor da sua compra é de R$7,30"<<endl;
+			cout<<"Por gentileza informe a foma de pagamento!!"<<endl;
+			pagamento();
+			break;
+		case 105:
+			cout<<"O valor da sua compra é de R$3,50"<<endl;
+			cout<<"Por gentileza informe a foma de pagamento!!"<<endl;
+			pagamento();
+			break;
+		case 106:
+			cout<<"O valor da sua compra é de R$4,00"<<endl;
+			cout<<"Por gentileza informe a foma de pagamento!!"<<endl;
+			pagamento();
+			break;
+	}
+		
+}
+
+int menu(){
+	int opcao = 0;
+	cout<<"------------------------------------"<<endl;
+	cout<<"Digite a opção que deseja consultar."<<endl;
+	cout<<"1 - Cardapio"<<endl;
+	cout<<"2 - Whatsapp"<<endl;
+	cout<<"3 - Sair"<<endl;
+	cout<<"------------------------------------"<<endl;
+	cin>>opcao;
+	
+	switch(opcao){
+		case 1: 
+			cardapio();
+			break;
+		case 2:
+			whatsapp();
+			break;
+		case 3:
+			cout<<"Volte Sempre!!";
+			break;
+	}
+	
+	
+	
+	return 0;
+	
+}
+int main(){
+	cout<<"-----------------------------------------"<<endl;
+	cout<<"Sejam Bem vindos à lanchonete do Valdir!!"<<endl;
+	cout<<"-----------------------------------------"<<endl;
+	
+	 menu();
+	
+	
+	return 0;
+}
