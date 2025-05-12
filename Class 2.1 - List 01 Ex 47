@@ -12,20 +12,20 @@ using namespace std;
 			if (d > 0.05 and d < 0.3){
 			cout<<"First Group - Ambiente Seguro"<<endl;
 			cout<<"Second Group - Ambiente Seguro"<<endl;
-			cout<<"Tird Group - Ambiente Seguro"<<endl;
+			cout<<"Third Group - Ambiente Seguro"<<endl;
 		}else if (d >= 0.3 and d <0.4){
 			cout<<"First Group - Estado De Alerta!!"<<endl;
 			cout<<"Second Group - Ambiente Seguro"<<endl;
-			cout<<"Tird Group - Ambiente Seguro"<<endl;
+			cout<<"Third Group - Ambiente Seguro"<<endl;
 		}else if (d >= 0.4  and d < 0.5){
 			cout<<"First Group - Estado De Alerta!!"<<endl;
 			cout<<"Second Group - Estado De Alerta!!"<<endl;
-			cout<<"Tird Group - Ambiente Seguro"<<endl;
+			cout<<"Third Group - Ambiente Seguro"<<endl;
 		}else if (0.5 <= d ){
 			cout<<"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"<<endl;
 			cout<<"First Group - Estado Critico!!"<<endl;
 			cout<<"Second Group - Estado Critico!!"<<endl;
-			cout<<"Tird Group - Estado Critico!!"<<endl;
+			cout<<"Third Group - Estado Critico!!"<<endl;
 			cout<<"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"<<endl;
 			cout<<" "<<endl;
 			cout<<"Parem Todas as Atividades!!!"<<endl;
