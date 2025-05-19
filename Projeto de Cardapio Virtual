@@ -5,6 +5,7 @@ void pagamento(){
 	float Pix;
 	float Cartao;
 	float Dinheiro;
+	int y =0.0;
 	
 	cout<<"---------------------"<<endl;
 	cout<<"Formas de Pagamento :"<<endl;
@@ -12,8 +13,9 @@ void pagamento(){
 	cout<<"2 - Cartao"<<endl;
 	cout<<"3 - Dinheiro"<<endl;
 	cout<<"---------------------"<<endl;
+	cin>>y;
 	
-	switch (){
+	switch (y){
 		case 1:
 			cout<<"Segue a Chave abaixo!"<<endl;
 			cout<<"CNPJ - 49.056.696/0001-67"<<endl;
@@ -22,7 +24,7 @@ void pagamento(){
 			cout<<"Por gentileza, pague na retirada do pedido!"<<endl;
 			break;
 		case 3:
-			cout<<""
+			cout<<"Por gentileza, informe se vai precisar de troco!"<<endl;
 	}
 }
 int whatsapp(){
@@ -49,37 +51,67 @@ void cardapio(){
 	
 	switch (a){
 		case 100:
-			cout<<"O valor da sua compra é de R$2,20"<<endl;
+			float quantidade;
+			float conta;
+			cout<<"O valor unitario é de R$2,20"<<endl;
+			cout<<"Informe a quantidade desejada"<<endl;
+			cin>>quantidade;
+			conta = 2.20 * quantidade;
+			cout<<"Sua compra deu R$"<<conta<<endl;
 			cout<<"Por gentileza informe a foma de pagamento!!"<<endl;
 			pagamento();
 			break;
 		case 101:
-			cout<<"O valor da sua compra é de R$3,30"<<endl;
+			cout<<"O valor unitario é de R$3,30"<<endl;
+			cout<<"Informe a quantidade desejada"<<endl;
+			cin>>quantidade;
+			conta = 3.30 * quantidade;
+			cout<<"Sua compra deu R$"<<conta<<endl;
 			cout<<"Por gentileza informe a foma de pagamento!!"<<endl;
 			pagamento();
 			break;
 		case 102:
-			cout<<"O valor da sua compra é de R$3,50"<<endl;
+			cout<<"O valor unitario é de R$3,50"<<endl;
+			cout<<"Informe a quantidade desejada"<<endl;
+			cin>>quantidade;
+			conta = 3.50 * quantidade;
+			cout<<"Sua compra deu R$"<<conta<<endl;
 			cout<<"Por gentileza informe a foma de pagamento!!"<<endl;
 			pagamento();
 			break;
 		case 103:
-			cout<<"O valor da sua compra é de R$5,20"<<endl;
+			cout<<"O valor unitario é de R$5,20"<<endl;
+			cout<<"Informe a quantidade desejada"<<endl;
+			cin>>quantidade;
+			conta = 5.20 * quantidade;
+			cout<<"Sua compra deu R$"<<conta<<endl;
 			cout<<"Por gentileza informe a foma de pagamento!!"<<endl;
 			pagamento();
 			break;
 		case 104:
-			cout<<"O valor da sua compra é de R$7,30"<<endl;
+			cout<<"O valor unitario é de R$7,30"<<endl;
+			cout<<"Informe a quantidade desejada"<<endl;
+			cin>>quantidade;
+			conta = 7.30 * quantidade;
+			cout<<"Sua compra deu R$"<<conta<<endl;
 			cout<<"Por gentileza informe a foma de pagamento!!"<<endl;
 			pagamento();
 			break;
 		case 105:
-			cout<<"O valor da sua compra é de R$3,50"<<endl;
+			cout<<"O valor unitario é de R$3,50"<<endl;
+			cout<<"Informe a quantidade desejada"<<endl;
+			cin>>quantidade;
+			conta = 3.50 * quantidade;
+			cout<<"Sua compra deu R$"<<conta<<endl;
 			cout<<"Por gentileza informe a foma de pagamento!!"<<endl;
 			pagamento();
 			break;
 		case 106:
-			cout<<"O valor da sua compra é de R$4,00"<<endl;
+			cout<<"O valor unitario é de R$4,00"<<endl;
+			cout<<"Informe a quantidade desejada"<<endl;
+			cin>>quantidade;
+			conta = 4.00 * quantidade;
+			cout<<"Sua compra deu R$"<<conta<<endl;
 			cout<<"Por gentileza informe a foma de pagamento!!"<<endl;
 			pagamento();
 			break;
@@ -116,7 +148,7 @@ int menu(){
 }
 int main(){
 	cout<<"-----------------------------------------"<<endl;
-	cout<<"Sejam Bem vindos à lanchonete do Valdir!!"<<endl;
+	cout<<"Sejam Bem vindos à lanchonete do Luanzin!!"<<endl;
 	cout<<"-----------------------------------------"<<endl;
 	
 	 menu();
