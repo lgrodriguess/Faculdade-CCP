@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+
+int elevado(int n, int x){
+	int final = 0;
+	if (x == 0)
+		return 1;
+	else 
+		return n * elevado(n,x - 1);		
+}
+int main(){
+	int n=0,x=0;
+	cout<<"escreva o numero que vc quer realizar a conta e por quanto quer eleva-lo "<<endl;
+	cin>>n;
+	cin>>x;
+	cout << elevado(n,x);
+	
+	return 0;
+}
