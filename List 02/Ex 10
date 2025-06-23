@@ -15,15 +15,18 @@ void login(){
 	
 	
 	
-	if (nome == senha){
+	while (nome == senha){
 		cout<<"Nome e Senhas iguais!"<<endl;
-		cout<<"Sessão finalizada!"<<endl;
-		return;
-	}else{
+		cout<<"Digite o nome : "<<endl;
+		cin>>nome;
+		cout<<"Digite a senha : "<<endl;
+		cin>>senha;
+}
+	
 		cout<<"           O login foi realizado com sucesso!!                "<<endl;
 		cout<<"        Seja Bem-Vindo a pagina inicial da Emcomp!            "<<endl;
 		cout<<"--------------------------------------------------------------"<<endl;
-	}
+	
 }
 int main(){
 	login();
